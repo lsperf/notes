@@ -37,12 +37,6 @@ export default function Home() {
 
     onLoad();
   }, [isAuthenticated]);
-
-  useEffect(() => {
-
-    
-      
-  }, [filter]);
   
   function loadNotes() {
     return API.get("notes", "/notes");
