@@ -1,5 +1,9 @@
 # This repo represents search and replace tasks implemented on an existing git project https://github.com/AnomalyInnovations/serverless-stack-demo-client
 
+- Filter notes. Allows the user to find notes containing a specific spring.
+- Bulk find-and-replace. Allows the user to replace all occurrences of a given string (in this case - search string) across all saved notes, with a new string supplied by the user.
+- Loading indicator. The indicator appears while all the notes are being retrieved from the API for the homescreen, when an individual note is being loaded for viewing, and when find-and-replace is in progress.
+
 # Serverless Stack Demo React App
 
 The [Serverless Stack Guide](http://serverless-stack.com) is a free comprehensive resource to creating full-stack serverless applications. We create a [note taking app](http://demo2.serverless-stack.com) from scratch.
